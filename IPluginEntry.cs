@@ -16,7 +16,9 @@ namespace ForgePlugin
         string homepage { get; set; }
         [ForgePlugin.Helpers.NotNullOrEmpty]
         string version { get; set; }
-
+        //lazy code temporarily - needs improvement
+        [ForgePlugin.Helpers.NotNullOrEmpty]
+        string pluginAssemblyName { get; set; }
 
         // Plugin mandatory methods
         int Initialize();
