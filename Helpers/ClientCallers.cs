@@ -8,11 +8,13 @@ namespace ForgePlugin.Helpers
 {
     public interface IClientCallers
     {
-        string RetreiveSetting(string key, IPluginEntry plugin);
-        void SetSetting(string key, string value, IPluginEntry plugin);
-
-        bool isActivated { get; }
         bool isHighEndMachine { get; }
         string CLIENT_GET_VERSION();
+    }
+
+    public interface IConfigurationManager
+    {
+        string RetreiveSetting(string key, IPluginEntry plugin);
+        void SetSetting(string key, string value, IPluginEntry plugin);
     }
 }
