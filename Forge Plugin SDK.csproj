@@ -14,12 +14,12 @@
     <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>..\..\prod\builds\debug\sdk\</OutputPath>
+    <OutputPath>..\out\sdk\</OutputPath>
     <WarningLevel>2</WarningLevel>
     <RegisterForComInterop>false</RegisterForComInterop>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <OutputPath>..\..\prod\builds\release\sdk\</OutputPath>
+    <OutputPath>..\out\sdk\</OutputPath>
     <DefineConstants>
     </DefineConstants>
     <RegisterForComInterop>true</RegisterForComInterop>
