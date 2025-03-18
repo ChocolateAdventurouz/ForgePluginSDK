@@ -45,7 +45,7 @@ echo ^{^"overlay^": [^
 ]^} > %name%/overlay.json
 
 echo [!] Creating entry overlay file...
-echo "<!DOCTYPE html><html><head><body><script>import { DisplayOverlay } from "lib/overlaylib.js";</script></body></head></html>" > %name%/overlay.html
+echo "<!DOCTYPE html><html><head><body><script></script></body></head></html>" > %name%/overlay.html
 
 echo [!] Adding library...
 
