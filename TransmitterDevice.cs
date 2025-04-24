@@ -28,6 +28,8 @@ namespace ForgePlugin
         [ForgePlugin.Helpers.NotNullOrEmpty]
         bool rdsRTCapable { get; set; }*/
 
+        int InitializeDevice();
+        int ShowDeviceSettings();
 
         // Out-To-Transmitter
         void ChangeFrequency(double frequency);

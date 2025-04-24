@@ -20,6 +20,10 @@ namespace ForgePlugin
         [ForgePlugin.Helpers.NotNullOrEmpty]
         string encoderConnectionMethod { get; set; }
 
+        int InitializeDevice();
+        int ShowDeviceSettings();
+
+
         void UpdatePSText(string psText);
         void UpdateRTText(string rtText);
         void ChangeTP(int tp);
