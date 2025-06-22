@@ -16,6 +16,6 @@ namespace ForgePlugin.Interfaces
         /// <summary>
         /// Leave it null if the plugin is not an RDS Encoder driver
         /// </summary>
-        IRDSDevice? rdsEncoder { get; set; }
+        IRDSDevice? RDSEncoder { get; set; }
     }
 }
