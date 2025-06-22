@@ -6,20 +6,18 @@
     <LangVersion>8.0</LangVersion>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <AssemblyTitle>Forge Plugin SDK</AssemblyTitle>
-    <Description>Allows Developers to write their own plugins for Forge</Description>
+    <Description>Allows Developers to write their own plugins for ForgeAir</Description>
     <Company>Karapatakis Aggelos %28ChocolateAdventurouz%29</Company>
     <Product>Forge Plugin SDK</Product>
-    <Copyright>Copyright ©  2024</Copyright>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <Copyright>Copyright ©  2025</Copyright>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>..\out\sdk\</OutputPath>
     <WarningLevel>2</WarningLevel>
     <RegisterForComInterop>false</RegisterForComInterop>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <OutputPath>..\out\sdk\</OutputPath>
     <DefineConstants>
     </DefineConstants>
     <RegisterForComInterop>true</RegisterForComInterop>
