@@ -21,6 +21,6 @@ namespace ForgePlugin.Interfaces
         /// <summary>
         /// Leave it null if the plugin is not an Audio Player
         /// </summary>
-        IAudioPlayer? audioPlayer { get; set; }
+        IAudioPlayer? AudioPlayer { get; set; }
     }
 }
